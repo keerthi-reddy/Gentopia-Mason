@@ -13,3 +13,4 @@ from .keerthi_agent import *
 from .keerthi_scholar_agent import *
 from .keerthi_search_agent import *
 from .keerthi_pdfreader_agent import *
+from .keerthi_newsheadline_agent import *
