@@ -10,3 +10,4 @@ from .openai_memory_template import *
 from .vanilla-ziyu import *
 from .scholar-ziyu import *
 from .keerthi_agent import *
+from .keerthi_scholar_agent import *

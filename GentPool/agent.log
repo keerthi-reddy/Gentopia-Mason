@@ -1,0 +1,42 @@
+INFO:root:Creating Config from file: ./gentpool/pool/keerthi_scholar_agent/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/keerthi_scholar_agent/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/keerthi_scholar_agent/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:keerthi_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]keerthi_scholar_agent: 
+INFO:root:{"name":"search_single_paper", "arguments":{
+  "title": "Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models",
+  "top_k": 1
+}}
+
+INFO:root:Calling function: search_single_paper ...
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
+INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
+INFO:scholarly:Retrying with a new session.
