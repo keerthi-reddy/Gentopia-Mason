@@ -8,34 +8,31 @@ INFO:root:[green]User:
 INFO:root:keerthi_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]keerthi_scholar_agent: 
-INFO:root:{"name":"search_single_paper", "arguments":{
-  "title": "Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models",
-  "top_k": 1
-}}
+INFO:root:{"name":"search_cite_paper", "arguments":{"title":"An Investigation of Neuron Activation as a Unified Lens to Explain Chain-of-Thought Eliciting Arithmetic Reasoning of LLMs","top_k":5}}
 
-INFO:root:Calling function: search_single_paper ...
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models
-INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:root:Calling function: search_cite_paper ...
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=An%20Investigation%20of%20Neuron%20Activation%20as%20a%20Unified%20Lens%20to%20Explain%20Chain-of-Thought%20Eliciting%20Arithmetic%20Reasoning%20of%20LLMs
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=An%20Investigation%20of%20Neuron%20Activation%20as%20a%20Unified%20Lens%20to%20Explain%20Chain-of-Thought%20Eliciting%20Arithmetic%20Reasoning%20of%20LLMs "HTTP/1.1 200 OK"
 INFO:scholarly:Got a captcha request.
 INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
 INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
 INFO:scholarly:Retrying with a new session.
-INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=An%20Investigation%20of%20Neuron%20Activation%20as%20a%20Unified%20Lens%20to%20Explain%20Chain-of-Thought%20Eliciting%20Arithmetic%20Reasoning%20of%20LLMs "HTTP/1.1 200 OK"
 INFO:scholarly:Got a captcha request.
 INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
 INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
 INFO:scholarly:Retrying with a new session.
-INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=An%20Investigation%20of%20Neuron%20Activation%20as%20a%20Unified%20Lens%20to%20Explain%20Chain-of-Thought%20Eliciting%20Arithmetic%20Reasoning%20of%20LLMs "HTTP/1.1 200 OK"
 INFO:scholarly:Got a captcha request.
 INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
 INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
 INFO:scholarly:Retrying with a new session.
-INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=An%20Investigation%20of%20Neuron%20Activation%20as%20a%20Unified%20Lens%20to%20Explain%20Chain-of-Thought%20Eliciting%20Arithmetic%20Reasoning%20of%20LLMs "HTTP/1.1 200 OK"
 INFO:scholarly:Got a captcha request.
 INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
 INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
 INFO:scholarly:Retrying with a new session.
-INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=Navigating%20the%20Shortcut%20Maze%3A%20A%20Comprehensive%20Analysis%20of%20Shortcut%20Learning%20in%20Text%20Classification%20by%20Language%20Models "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=An%20Investigation%20of%20Neuron%20Activation%20as%20a%20Unified%20Lens%20to%20Explain%20Chain-of-Thought%20Eliciting%20Arithmetic%20Reasoning%20of%20LLMs "HTTP/1.1 200 OK"
 INFO:scholarly:Got a captcha request.
 INFO:scholarly:Neither Chrome nor Firefox/Geckodriver found in PATH
 INFO:scholarly:Exception AttributeError while fetching page: ("'NoneType' object has no attribute 'current_url'",)
